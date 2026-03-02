@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+env/
+.conda/
+.env/
+
+# Python and Jupyter cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data and heavy models (To avoid committing data to GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.pkl
+models/*.h5
+
+# Logs and local config
+*.log
+.env
